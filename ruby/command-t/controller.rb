@@ -265,9 +265,9 @@ module CommandT
       # "special" keys (overridable by settings)
       { 'Backspace'             => '<BS>',
         'Delete'                => '<Del>',
-        'AcceptSelection'       => '<CR>',
+        'AcceptSelection'       => '<C-t>',
         'AcceptSelectionSplit'  => ['<C-CR>', '<C-s>'],
-        'AcceptSelectionTab'    => '<C-t>',
+        'AcceptSelectionTab'    => '<CR>',
         'AcceptSelectionVSplit' => '<C-v>',
         'ToggleFocus'           => '<Tab>',
         'Cancel'                => ['<C-c>', '<Esc>'],
